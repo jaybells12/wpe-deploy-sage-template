@@ -27,9 +27,9 @@ cd your-roots-theme-name-here && composer require roots/acorn
 ```
 ### Important: Windows users __must__ use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) for steps 6, 7, 8
 
-6. Run ```yarn``` from the theme directory to install dependencies
+6. Run ```yarn``` from the theme's root directory to install dependencies
 
-7. Update [bud.config.js](./wp-content/themes/roots-theme/bud.config.js#L36) with your local dev URL
+7. Update [bud.config.js](./wp-content/themes/roots-theme/bud.config.js#L36) with your local dev URL and proxy
 
 8. Run ```yarn build``` to compile assets.
 
