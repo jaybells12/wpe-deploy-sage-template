@@ -54,4 +54,12 @@ env:
 
 4. Push the repo to your own GitHub and the [post-deploy.sh](post-deploy.sh) will clear the cache during [GitHub deploys](.github/workflows/action.yml#L70) 🎉.
 
-## Frequently Asked Questions
+5. Run ```composer install``` from the theme's root directory
+6. 
+### Important: Windows users __must__ use [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) for steps 6, 7, 8
+
+6. Run ```yarn``` from the theme's root directory
+
+7. Update [bud.config.js](./wp-content/themes/roots-theme/bud.config.js#L36) with your local dev URL and proxy
+
+8. Run ```yarn build``` to compile assets.
